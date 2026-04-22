@@ -3,9 +3,10 @@
   <head>
     <title>the thoughtshepherds{% if title %} | {{ title }}{% endif %}</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   </head>
   <body>
-    <wa-page>
+    <wa-page disable-navigation-toggle>
       <header slot="header">
         {% if title %}
         <div class="h1">thoughtshepherds</div>

@@ -44,4 +44,4 @@ and let these brilliant folks do it for you.
     playground. She's been fixing people's
     thoughts ever since.
   </wa-card>
-</flex>
+</div>

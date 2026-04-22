@@ -31,7 +31,13 @@ wa-card {
 
 .flex {
   display: flex;
+  flex-direction: column;
+  row-gap: var(--wa-space-m);
   column-gap: var(--wa-space-m);
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
 
   wa-card {
     flex: 1;
