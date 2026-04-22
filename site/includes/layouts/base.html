@@ -23,12 +23,17 @@
           </wa-breadcrumb-item>
         </wa-breadcrumb>
       </header>
-      <main>
-        {% if title %}
-        <h1>{{ title }}</h1>
-        {% endif %}
-        {{ content }}
-      </main>
+        <main>
+          <flex>
+            <div class="main-content">
+              {% if title %}
+              <h1>{{ title }}</h1>
+              {% endif %}
+              {{ content }}
+            </div>
+            <blank>This space intentionally left blank.</blank>
+          </flex>
+        </main>
     </wa-page>
     <script type="module" src="https://ka-f.webawesome.com/webawesome@3.5.0/webawesome.loader.js"></script>
   </body>
