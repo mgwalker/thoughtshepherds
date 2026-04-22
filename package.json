@@ -1,0 +1,24 @@
+{
+  "name": "thoughtshepherds",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "prettier": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-img": "^6.0.4",
+    "autoprefixer": "^10.5.0",
+    "esbuild": "^0.28.0",
+    "esbuild-sass-plugin": "^3.7.0",
+    "postcss": "^8.5.10"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  }
+}
