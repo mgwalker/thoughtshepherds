@@ -6,6 +6,11 @@ header[slot="header"] {
   color: white;
   background-color: var(--wa-color-purple-20);
 
+  img {
+    max-width: 60px;
+    transform: scale(-1, 1);
+  }
+
   .h1 {
     font-size: var(--wa-font-size-3xl);
     font-weight: var(--wa-font-weight-bold);
